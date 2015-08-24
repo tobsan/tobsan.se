@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>Tobsan :: [HTML]</title>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<link rel="stylesheet" type="text/css" href="style.css" />
+<script src="http://ajax.googleapis.com/ajax/libs/angularjs/1.2.15/angular.min.js"></script>
+<script src="markdown.min.js"></script>
+<script type="text/javascript">
+<!--
+function controller($scope, $http) {
+    $scope.pages = [ 
+        { "name": "Tobsan :: [HTML]", "id": "blog", "data": "blog.md", "menu": true }
+      , { "name": "About", "id": "about", "data": "about.md", "menu": true }
+      , { "name": "Stuff", "id": "stuff", "data": "stuff.md", "menu": true } 
+      , { "name": "Links", "id": "links", "data": "links.md", "menu": true }
+      , { "name": "Speech", "id": "profinst", "data": "profinst.md", "menu": false}
+    ];
+
+    angular.forEach($scope.pages, function(item) {
+        $http.get(item.data).success(function(response) {
+            item.values = response;
+            // Show page for the location hash
+            if(document.location.hash.length > 0) {
+                var page = document.location.hash.substr(1);
+                if(item.id == page) {
+                    $scope.toggle(response);
+                }
+            // Or default to blog
+            } else if(item.id == "blog") {
+                $scope.toggle(response);
+            }
+        });
+    });
+
+    $scope.toggle = function(data) {
+        var contentDiv = document.getElementById("content");
+        contentDiv.innerHTML = markdown.toHTML(data);
+    }
+}
+
+// TODO: How to handle #profinst and similar?
+// TODO: Make it possible to link to specific blog post
+
+//-->
+</script>
+</head>
+<body>
+<div id="main" ng-app="" ng-controller="controller">
+    <div id ="header">
+        <a ng-repeat="item in pages | filter:{menu: true}" 
+           ng-click="toggle(item.values)" class="menuitem" href="#{{ item.id }}">
+            {{ item.name }} 
+        </a>
+    </div>
+    <div id="content">
+    </div>
+</div>
+</body>
+</html>
