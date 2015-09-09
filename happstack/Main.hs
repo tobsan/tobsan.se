@@ -6,6 +6,7 @@
 -- This code is licensed under the MIT license.
 -- See the LICENSE file or http://opensource.org/licenses/MIT
 --
+-- Main module
 
 module Main where
 
@@ -23,6 +24,8 @@ import qualified Text.Blaze.Html5 as H
 import qualified Text.Blaze.Html4.Strict.Attributes as A
 import Text.Blaze.Html.Renderer.Text
 
+import Blog
+
 main :: IO ()
 main = simpleHTTP nullConf $ msum 
     [ nullDir >> blog
@@ -34,8 +37,8 @@ main = simpleHTTP nullConf $ msum
 rss :: ServerPartT IO Response
 rss = ok $ toResponse ("RSS!" :: String)
 
-blog :: ServerPartT IO Response
-blog = ok $ toResponse ("This is the blog" :: String)
+-- blog :: ServerPartT IO Response
+-- blog = ok $ toResponse ("This is the blog" :: String)
 
 -- Serves a markdown page
 pages :: ServerPartT IO Response
