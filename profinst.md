@@ -1,5 +1,10 @@
-Professorsinstallation 2013
----------------------------
+---
+layout: page
+title: Professorsinstallation 2013
+permalink: /profinst
+exclude_from_nav: true
+---
+
 Nya professorer, rektor, prorektor, ärade gäster
 
 ”Hello world!” är ofta det första program som skrivs när man studerar ett nytt programmeringsspråk,
