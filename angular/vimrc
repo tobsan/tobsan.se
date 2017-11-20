@@ -1,0 +1,102 @@
+" 
+" .vimrc by Tobias Olausson
+"
+
+" We use Vim, not Vi
+set nocompatible
+colorscheme elflord
+
+filetype plugin indent on
+syntax on
+
+" Show line numbers
+set number
+set numberwidth=4
+" Show matching paranthesis and such
+set showmatch
+" Blink matches 1/2 second
+set mat=5
+
+" Tabs and stuff
+set shiftwidth=4
+set softtabstop=4
+set tabstop=4
+set smarttab
+set expandtab
+" Indent automagically if you can
+set autoindent
+
+" Read files when changed
+set autoread
+" Write files when changing
+set autowrite
+
+" Highlight current line
+set cursorline
+
+" Mark long lines as bad
+set textwidth=100
+
+" Some search options
+set ignorecase
+set smartcase "only sensitive if uppercase char in search word
+set hlsearch
+set incsearch "search incrementally
+" F3 disables search highlighting
+nnoremap <F3> :noh<CR>
+
+" W saves, and similar things
+command W w
+command Q q
+command WQ wq
+command Wq wq
+cab qw wq
+
+" Use C-a and C-e for line start/end
+noremap  <C-a> ^
+noremap! <C-a> <Esc>I
+noremap  <C-e> $
+noremap! <C-e> <Esc>A
+
+" Remap <C-space> to word completion
+noremap! <Nul> <C-n>
+
+" Make yank behave like delete; Y = D
+map Y y$
+
+" No beeps
+set noerrorbells
+
+" split and vsplit will now work in a more sensible way
+set splitright
+set splitbelow
+
+" Good handling of wildcard matching
+set wildmenu
+set wildignore=*.bak,*.o,*~ 
+set wildmode=longest,list,full
+
+" Automagically cd to the directory of the file 
+set autochdir
+
+" Display incomplete commands
+set showcmd
+
+" Leave my cursor alone!
+set nostartofline
+
+" Some magic for regexp
+set magic
+
+" Show 20 lines more than the one I'm looking at now
+set scrolloff=20
+
+" Some stuff for minibufexpl
+let g:miniBufExplMapWindowNavVim = 1
+let g:miniBufExplMapWindowNavArrows = 1
+let g:miniBufExplMapCTabSwitchBufs = 1
+let g:miniBufExplModSelTarget = 1
+
+" Use CTRL-P
+set runtimepath^=~/.vim/bundle/ctrlp.vim
+

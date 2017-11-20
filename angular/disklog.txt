@@ -1,0 +1,126 @@
+gargravarr@frogstar:~$ sudo su
+[sudo] password for gargravarr: 
+root@frogstar:/home/gargravarr# hdparm --yes-i-know-what-i-am-doing --dco-restore /dev/sdc
+
+/dev/sdc:
+ issuing DCO restore command
+ HDIO_DRIVE_CMD(dco_restore) failed: Input/output error
+root@frogstar:/home/gargravarr# hdparm --yes-i-know-what-i-am-doing --dco-identify /dev/sdc
+
+/dev/sdc:
+ HDIO_DRIVE_CMD(dco_identify) failed: Input/output error
+root@frogstar:/home/gargravarr# gdisk /dev/sdc
+GPT fdisk (gdisk) version 0.8.8
+
+Partition table scan:
+  MBR: MBR only
+  BSD: not present
+  APM: not present
+  GPT: present
+
+Found valid MBR and GPT. Which do you want to use?
+ 1 - MBR
+ 2 - GPT
+ 3 - Create blank GPT
+
+Your answer: 1
+
+Command (? for help): v
+
+No problems found. 4294969277 free sectors (2.0 TiB) available in 2
+segments, the largest of which is 4294967263 (2.0 TiB) in size.
+
+Command (? for help): p
+Disk /dev/sdc: 5860533168 sectors, 2.7 TiB
+Logical sector size: 512 bytes
+Disk identifier (GUID): FCE6AAFB-5FF6-4286-9DC1-3665E8FAB523
+Partition table holds up to 128 entries
+First usable sector is 34, last usable sector is 5860533134
+Partitions will be aligned on 2048-sector boundaries
+Total free space is 4294969277 sectors (2.0 TiB)
+
+Number  Start (sector)    End (sector)  Size       Code  Name
+   1            2048      1565565871   746.5 GiB   8300  Linux filesystem
+
+Command (? for help): d
+Using 1
+
+Command (? for help): p
+Disk /dev/sdc: 5860533168 sectors, 2.7 TiB
+Logical sector size: 512 bytes
+Disk identifier (GUID): FCE6AAFB-5FF6-4286-9DC1-3665E8FAB523
+Partition table holds up to 128 entries
+First usable sector is 34, last usable sector is 5860533134
+Partitions will be aligned on 2048-sector boundaries
+Total free space is 5860533101 sectors (2.7 TiB)
+
+Number  Start (sector)    End (sector)  Size       Code  Name
+
+Command (? for help): n
+Partition number (1-128, default 1): 
+First sector (34-5860533134, default = 2048) or {+-}size{KMGTP}: 
+Last sector (2048-5860533134, default = 5860533134) or {+-}size{KMGTP}: 
+Current type is 'Linux filesystem'
+Hex code or GUID (L to show codes, Enter = 8300): 
+Changed type of partition to 'Linux filesystem'
+
+Command (? for help): p
+Disk /dev/sdc: 5860533168 sectors, 2.7 TiB
+Logical sector size: 512 bytes
+Disk identifier (GUID): FCE6AAFB-5FF6-4286-9DC1-3665E8FAB523
+Partition table holds up to 128 entries
+First usable sector is 34, last usable sector is 5860533134
+Partitions will be aligned on 2048-sector boundaries
+Total free space is 2014 sectors (1007.0 KiB)
+
+Number  Start (sector)    End (sector)  Size       Code  Name
+   1            2048      5860533134   2.7 TiB     8300  Linux filesystem
+
+Command (? for help): w
+
+Final checks complete. About to write GPT data. THIS WILL OVERWRITE EXISTING
+PARTITIONS!!
+
+Do you want to proceed? (Y/N): y
+OK; writing new GUID partition table (GPT) to /dev/sdc.
+The operation has completed successfully.
+
+root@frogstar:/home/gargravarr# fsck.ext4 /dev/sdc1 
+e2fsck 1.42.9 (4-Feb-2014)
+Superblock has an invalid journal (inode 8).
+Clear<y>? yes
+*** ext3 journal has been deleted - filesystem is now ext2 only ***
+
+/dev/sdc1 was not cleanly unmounted, check forced.
+Pass 1: Checking inodes, blocks, and sizes
+Pass 2: Checking directory structure
+Pass 3: Checking directory connectivity
+Pass 4: Checking reference counts
+Pass 5: Checking group summary information
+Block bitmap differences:  -(365985792--366018559)
+Fix<y>? yes
+Free blocks count wrong for group #11169 (0, counted=32768).
+Fix<y>? yes
+Free blocks count wrong (527820677, counted=527853445).
+Fix<y>? yes
+Recreate journal<y>? yes
+Creating journal (32768 blocks):  Done.
+
+*** journal has been re-created - filesystem is now ext3 again ***
+
+/dev/sdc1: ***** FILE SYSTEM WAS MODIFIED *****
+/dev/sdc1: 4591/183148544 files (1.2% non-contiguous), 204745595/732566272 blocks
+
+root@frogstar:/home/gargravarr# mount /dev/sdc1 /zeraw/
+root@frogstar:/home/gargravarr# cd /zeraw/
+root@frogstar:/zeraw# ll
+total 32
+drwxrwxr-x  5 gargravarr 1003  4096 jun  6 20:16 ./
+drwxr-xr-x 25 root       root  4096 aug 16 17:21 ../
+drwsrwsr-x 39 gargravarr 1003  4096 aug  3 13:44 downloads/
+drwxrwxr-x 58 gargravarr 1003  4096 jun  7 12:27 Highdef/
+drwx-w----  2 root       1003 16384 sep  7  2013 lost+found/
+
+root@frogstar:/zeraw/Highdef# exit
+gargravarr@frogstar:~$ 
+
