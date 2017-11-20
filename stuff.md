@@ -12,8 +12,8 @@ This page is part bragging, part just a stash of things that won't fit the blogg
   thesis.
 * [YANE - Yet Another NES Emulator](/assets/yane.pdf), my bachelor's thesis.
 * [Tourettes](https://code.google.com/archive/p/tourettes/), a torrent tracker written in erlang.
-* A simple Brainfuck interpreter in Haskell.
-* My (old) .vimrc
+* A simple [Brainfuck interpreter](/brainfuck) in Haskell.
+* My (old) [.vimrc](/assets/vimrc)
 
 ## Other
 * [Humanistisk forskning för dödskamp](https://www.svd.se/humanistisk-forskning-for-dodskamp), an
