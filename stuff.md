@@ -22,3 +22,5 @@ This page is part bragging, part just a stash of things that won't fit the blogg
 * [My speech](/profinst) at the inauguration of new professors at the University of
   Gothenburg 2013. (in Swedish). 
 
+* [Laughable, man!](http://laughableman.com), a tribute to Jesus Quintana of [The Big
+  Lebowski](http://www.imdb.com/title/tt0118715/)
