@@ -8,15 +8,16 @@ This is a collection of links to material that I don't personally work with, but
 consider 
 
 # University
-* University of Gothenburg, my alma mater.
-* Göta students' union, of which I was the vice president 2011-2012
-* University of Gothenburg Students' unions (GUS), of which I was the vice president 2012-2013
+* [University of Gothenburg](http://gu.se), my alma mater.
+* [Göta students' union](http://gota.gu.se), of which I was the vice president 2011-2012
+* [University of Gothenburg Students' unions (GUS)](http://gus.gu.se), of which I was the vice
+  president 2012-2013
 
 # Programming
-* Haskell, a purely functional programming language.
+* [Haskell](http://haskell.org), a purely functional programming language.
 
 # Other interests
-* Vänsterpartiet, the swedish left party.
-* StepMania, a rhythm dance game simulator.
-* Memory-Alpha, a Star Trek wiki.
+* [Vänsterpartiet](http://vansterpartiet.se), the swedish left party.
+* [StepMania](http://stepmania.com), a rhythm dance game simulator.
+* [Memory-Alpha](http://memory-alpha.wikia.com), a Star Trek wiki.
 
