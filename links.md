@@ -20,4 +20,4 @@ consider
 * [Vänsterpartiet](http://vansterpartiet.se), the swedish left party.
 * [StepMania](http://stepmania.com), a rhythm dance game simulator.
 * [Memory-Alpha](http://memory-alpha.wikia.com), a Star Trek wiki.
-
+* [Lyckans Galoscher](http://lyckansgaloscher.se), my local tenants' union (Hyresgästförening).
