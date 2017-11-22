@@ -23,3 +23,5 @@ stream, so that I could have any categories there as well, for example.
 
 I would like to have an RSS feed, and I suppose there are plugins in Jekyll for that. Since it's a
 static site generator, it would just regenerate the feed, which should be no biggie.
+
+**EDIT:** Turns out an RSS feed was available by default, neat!
