@@ -50,7 +50,7 @@ these days.
 # Contact
 
 * Twitter: [@wto_](http://twitter.com/wto_)
-* E-mail: tobsan[at]tobsan[dot]se
+* E-mail: tobsan[at]tobsan[dot]se (GPG key fingerprint: `1EEF 527E 9341 888C 6D32  61D8 227C A2A2 FF16 BE40`)
 * GitHub: [tobsan](http://github.com/tobsan)
 * LinkedIn: [profile](http://www.linkedin.com/in/tobsan)
 
