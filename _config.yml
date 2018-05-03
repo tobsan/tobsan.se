@@ -16,7 +16,10 @@
 title: "Tobsan"
 email: "tobsan@tobsan.se"
 description: >- # this means to ignore newlines until "baseurl:"
-    Tobias Olausson's personal wobsite, with a blag and everything.
+  Welcome to my personal wobsite, with a blag and everything.
+  I'm a Swedish software engineer, music game enthusiast, former students' union
+  activist, and free software advocate. I also enjoy playing board games.
+
 baseurl: "" # the subpath of your site, e.g. /blog
 url: "http://tobsan.se" # the base hostname & protocol for your site, e.g. http://example.com
 
