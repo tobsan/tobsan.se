@@ -5,7 +5,7 @@ permalink: /links/
 ---
 
 This is a collection of links to material that I don't personally work with, but that I still
-consider 
+consider interesting.
 
 # University
 * [University of Gothenburg](http://gu.se), my alma mater.
