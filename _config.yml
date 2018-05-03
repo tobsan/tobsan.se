@@ -19,10 +19,6 @@ description: >- # this means to ignore newlines until "baseurl:"
     Tobias Olausson's personal wobsite, with a blag and everything.
 baseurl: "" # the subpath of your site, e.g. /blog
 url: "http://tobsan.se" # the base hostname & protocol for your site, e.g. http://example.com
-social_link: twitter
-social_username: wto_
-twitter_username: wto_
-github_username: tobsan
 
 # Build settings
 markdown: kramdown
