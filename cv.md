@@ -25,7 +25,7 @@ typist since 2008. I'm a native swede and speak english fluently.
 * Build tools: Yocto, CMake, qmake
 * CI/Infra: Jenkins, Vagrant, VirtualBox, Docker
 * Source control: git, svn, darcs
-* Collaboration: Atlassian suite, GitHub
+* Collaboration: Atlassian suite, GitHub, GitLab
 
 ----------------
 
