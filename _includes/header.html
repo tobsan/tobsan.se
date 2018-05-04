@@ -1,31 +1,19 @@
 <header class="site-header" role="banner">
 
   <div class="wrapper">
-    {% assign default_paths = site.pages | map: "path" %}
-    {% assign page_paths = site.header_pages | default: default_paths %}
-
-    {% if page_paths %}
+    {% if site.pages %}
       <nav class="site-nav">
-        <div class="trigger">
-          <a class="page-link" href="{{ "/" | relative_url }}">
-            {% if page.title == my_page.title %}<b>{% endif %}
-              Home
-            {% if page.title == my_page.title %}</b>{% endif %}
-          </a>
+        <a class="page-link {% if page.url == "/" %} bold {% endif %}"
+           href="{{ "/" | relative_url }}">Home</a>
 
-          {% for path in page_paths %}
-            {% assign my_page = site.pages | where: "path", path | first %}
-            {% if my_page.title %}
-            {% unless my_page.exclude_from_nav %}
-            <a class="page-link" href="{{ my_page.url | relative_url }}">
-                {% if page.title == my_page.title %}<b>{% endif %}
-                    {{ my_page.title | escape }}
-                {% if page.title == my_page.title %}</b>{% endif %}
-            </a>
-            {% endunless %}
-            {% endif %}
-          {% endfor %}
-        </div>
+        {% for my_page in site.pages %}
+          {% if my_page.title %}
+          {% unless my_page.exclude_from_nav %}
+              <a class="page-link {% if page.title == my_page.title %} bold {% endif %}"
+                 href="{{ my_page.url | relative_url }}">{{ my_page.title | escape }}</a>
+          {% endunless %}
+          {% endif %}
+        {% endfor %}
       </nav>
     {% endif %}
   </div>
