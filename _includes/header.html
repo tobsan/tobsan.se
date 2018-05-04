@@ -1,26 +1,27 @@
-<header class="container mx-auto px-2 clearfix">
-  <ul class="list-reset mt-lg-1 mb-2 mb-lg-1">
-    <li class="inline-block">
-      <a class="align-middle link-primary mr-2 mr-lg-0 ml-lg-2 text-accent" href="{{ site.baseurl }}/">
-        {{ site.title }}
-      </a>
-    </li>
-    {% for my_page in site.pages %}
-      {% unless my_page.exclude_from_nav %}
-        {% if my_page.title %}
-        <li class="inline-block">
-          {% if page.title == my_page.title %}
-          <u>
-          {% endif %}
-          <a class="align-middle link-primary mr-2 mr-lg-0 ml-lg-2" href="{{ my_page.url | prepend: site.baseurl }}">
-            {{ my_page.title }}
-          </a>
-          {% if page.title == my_page.title %}
-          </u>
-          {% endif %}
-        </li>
-        {% endif %}
-      {% endunless %}
-    {% endfor %}
-  </ul>
+<header class="site-header" role="banner">
+
+  <div class="wrapper">
+    {% assign default_paths = site.pages | map: "path" %}
+    {% assign page_paths = site.header_pages | default: default_paths %}
+
+    {% if page_paths %}
+      <nav class="site-nav">
+        <div class="trigger">
+          <a class="page-link" href="{{ "/" | relative_url }}">Home</a>
+          {% for path in page_paths %}
+            {% assign my_page = site.pages | where: "path", path | first %}
+            {% if my_page.title %}
+            {% unless my_page.exclude_from_nav %}
+            <a class="page-link" href="{{ my_page.url | relative_url }}">
+                {% if page.title == my_page.title %}<b>{% endif %}
+                    {{ my_page.title | escape }}
+                {% if page.title == my_page.title %}</b>{% endif %}
+            </a>
+            {% endunless %}
+            {% endif %}
+          {% endfor %}
+        </div>
+      </nav>
+    {% endif %}
+  </div>
 </header>

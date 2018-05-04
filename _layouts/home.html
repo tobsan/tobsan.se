@@ -1,25 +1,29 @@
-<!DOCTYPE html>
-<html>
+---
+layout: default
+---
 
-  {% include head.html %}
+<div class="home">
+  <h1>
+    {{ site.title }}
+  </h1>
 
-  <body>
+  <div>
+  {{ site.description }}
+  </div>
 
-    {% include header.html %}
+  <hr class="ruler" />
 
-    <div class="header-background">
-      <div class="container mx-auto px-2 py-2 mb-2 clearfix header-text">
-        <h1 class="h0 inline-block col-6 sm-width-full py-4 mt-2 header-title">{{ site.title }}</h1>
-        <p class="h4 lh-condensed font-smoothing">{{ site.description }}</p>
-      </div>
-    </div>
-    <div class="container mx-auto px-2 py-2">
-      {% for post in site.posts %}
-        {% include post_block.html %}
-      {% endfor %}
-    </div>
+  <ul class="post-list">
+    {% for post in site.posts %}
+      <li>
+        {% assign date_format = site.minima.date_format | default: "%b %-d, %Y" %}
+        <span class="post-meta">{{ post.date | date: date_format }}</span>
 
-    {% include footer.html %}
-
-  </body>
-</html>
+        <h2>
+          <a class="post-link" href="{{ post.url | relative_url }}">{{ post.title | escape }}</a>
+        </h2>
+        <p><i>{{ post.excerpt | truncatewords: 35 }}</i></p>
+      </li>
+    {% endfor %}
+  </ul>
+</div>
