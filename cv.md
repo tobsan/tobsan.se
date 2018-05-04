@@ -139,6 +139,8 @@ High school programme in science, aimed especially at mathematics and programmin
 #### Where
 Lerum High School
 
+----------------
+
 ## Misc
 I have a european type B driving license. I prefer commuting through public transport though.
 
