@@ -50,3 +50,7 @@ Starting in May, I will work at [HMS Industrial Networks](https://www.hms-networ
 office in Mölndal. They also do [Yocto](http://yoctoproject.org/) platforms, but more with custom
 hardware, and there will probably be a lot more C programming than what I'm used to, so that will be
 interesting for sure! **The dude abides.**
+
+**UPDATE 2018-05-20:** I have started at HMS. I'm part of a team maintaining a Yocto platform, and
+doing bring-up of both internally developed hardware and other hardware that we're working with.
+Pretty cool!
