@@ -39,6 +39,18 @@ typist since 2008. I'm a native swede and speak english fluently.
 
 ## Work experience
 
+### HMS Industrial Networks
+[HMS](http://hms.se) creates network hardware and software for industrial applications. We write
+software and drivers in C and support software in Python. The Gothenburg team, which I am a part of,
+maintains a Linux platform based on [Yocto](http://yoctoproject.org) for supporting the hardware we
+create on Linux.
+
+#### Duration
+May 2018 - Present
+
+#### Position
+Development Engineer
+
 ### Pelagicore / Luxoft Sweden
 [Pelagicore](http://pelagicore.com) develops In-Vehicle Infotainment (IVI) systems for the car
 industry, using open source software components.  We develop mainly in C/C++, but tend to script
