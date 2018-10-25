@@ -18,11 +18,11 @@ most experience with are C++, Python, Haskell, Java, Bash, Erlang. Professionall
 written C++, Python, Bash and QML.
 
 I feel at home in a small team of experts, preferrably following some agile setting. I work
-exclusively in GNU/Linux environments, but I can find my way around a Windows system. I'm a dvorak
-typist since 2008. I'm a native swede and speak english fluently.
+exclusively in GNU/Linux environments. I don't like Windows, but I can use it if I must. I'm a
+dvorak typist since 2008. I'm a native swede and speak english fluently.
 
 #### Tools and frameworks
-* Build tools: Yocto, CMake, qmake
+* Build tools: Yocto/OpenEmbedded, CMake, qmake
 * CI/Infra: Jenkins, Vagrant, VirtualBox, Docker
 * Source control: git, svn, darcs
 * Collaboration: Atlassian suite, GitHub, GitLab
@@ -40,10 +40,10 @@ typist since 2008. I'm a native swede and speak english fluently.
 ## Work experience
 
 ### HMS Industrial Networks
-[HMS](http://hms.se) creates network hardware and software for industrial applications. We write
-software and drivers in C and support software in Python. The Gothenburg team, which I am a part of,
-maintains a Linux platform based on [Yocto](http://yoctoproject.org) for supporting the hardware we
-create on Linux.
+[HMS](http://hms.se) creates network hardware and software for industrial applications, mainly
+field buses and industrial ethernet. We write software and drivers in C and support software in
+Python. The global platforms team, which I am a part of, maintains a Linux platform based on
+[OpenEmbedded](http://openembedded.org) for supporting the hardware we create on Linux.
 
 #### Duration
 May 2018 - Present
@@ -53,8 +53,8 @@ Development Engineer
 
 ### Pelagicore / Luxoft Sweden
 [Pelagicore](http://pelagicore.com) develops In-Vehicle Infotainment (IVI) systems for the car
-industry, using open source software components.  We develop mainly in C/C++, but tend to script
-stuff in both python and bash when needed. We maintain and develop a Linux platform using
+industry, using open source software components. They develop mainly in C/C++, but tend to script
+stuff in both python and bash when needed. They maintain and develop a Linux platform using
 [Yocto](http://yoctoproject.org), and write UI software in [Qt/QML](http://qt.io). As a Software
 Engineer, my main responsibilities were development and testing of code, as well as maintenance of
 the [Yocto platform](http://pelux.io).
