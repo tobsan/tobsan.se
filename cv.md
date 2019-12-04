@@ -21,43 +21,37 @@ I feel at home in a small team of experts, preferrably following some agile sett
 exclusively in GNU/Linux environments. I don't like Windows, but I can use it if I must. I'm a
 dvorak typist since 2008. I'm a native swede and speak english fluently.
 
-#### Tools and frameworks
-* Build tools: Yocto/OpenEmbedded, CMake, qmake
-* CI/Infra: Jenkins, Vagrant, VirtualBox, Docker
-* Source control: git, svn, darcs
-* Collaboration: Atlassian suite, GitHub, GitLab
-
 ----------------
 
 ## Personal
 
 * **Date of birth:** 1988-07-30
 * **E-mail:** tobsan[at]tobsan[dot]se (GPG key fingerprint: `1EEF 527E 9341 888C 6D32  61D8 227C A2A2 FF16 BE40`)
-* **[GitHub profile](http://github.com/tobsan)**
+* **[GitHub profile](https://github.com/tobsan)**
 
 ----------------
 
 ## Work experience
 
 ### HMS Industrial Networks
-[HMS](http://hms.se) creates network hardware and software for industrial applications, mainly
-field buses and industrial ethernet. We write software and drivers in C and support software in
-Python. The global platforms team, which I am a part of, maintains a Linux platform based on
-[OpenEmbedded](http://openembedded.org) for supporting the hardware we create on Linux.
+[HMS](https://hms.se) creates network hardware and software for industrial applications, mainly
+field buses and industrial ethernet. HMS writes software and drivers in C and support software in
+Python.  The global platforms team, which I was a part of, maintains a Linux platform based on
+[OpenEmbedded](httpis://openembedded.org) for supporting the hardware we create on Linux.
 
 #### Duration
-May 2018 - Present
+May 2018 - December 2019
 
 #### Position
 Development Engineer
 
 ### Pelagicore / Luxoft Sweden
-[Pelagicore](http://pelagicore.com) develops In-Vehicle Infotainment (IVI) systems for the car
+[Pelagicore](https://pelagicore.com) develops In-Vehicle Infotainment (IVI) systems for the car
 industry, using open source software components. They develop mainly in C/C++, but tend to script
 stuff in both python and bash when needed. They maintain and develop a Linux platform using
-[Yocto](http://yoctoproject.org), and write UI software in [Qt/QML](http://qt.io). As a Software
+[Yocto](https://yoctoproject.org), and write UI software in [Qt/QML](https://qt.io). As a Software
 Engineer, my main responsibilities were development and testing of code, as well as maintenance of
-the [Yocto platform](http://pelux.io).
+the [Yocto platform](https://pelux.io).
 
 #### Duration
 July 2014 - May 2018
@@ -66,8 +60,8 @@ July 2014 - May 2018
 Software Engineer
 
 ### University of Gothenburg Students' Unions (GUS)
-[GUS](http://gus.gu.se) is a collaborative body for the students' unions at the [University of
-Gothenburg](http://gu.se).  The president and vice president are the students' voice towards the
+[GUS](https://gus.gu.se) is a collaborative body for the students' unions at the [University of
+Gothenburg](https://gu.se).  The president and vice president are the students' voice towards the
 vice-chancellor, coordinate the work with other student representatives and support the students'
 unions in their work. As vice president, I was responsible for the coordination of work regarding
 work environment and the student ombudsmen for work environment.
@@ -79,7 +73,7 @@ July 2012 - June 2013
 Vice president
 
 ### Göta students' union
-I worked at [Göta students' union](http://gota.gu.se) as one of three presidents responsible for the
+I worked at [Göta students' union](https://gotastudentkar.se) as one of three presidents responsible for the
 operative work within the union. Being responsible for education issues, I coordinated work with
 people responsible for education issues at our five sections (one per faculty) and pursued common
 issues against the university.
@@ -133,7 +127,7 @@ I took both my bachelor's degree and my master's degree with specialization in A
 and Logic at the University of Gothenburg. I also took some courses in linguistics.
 
 * Bachelor's Thesis: [λANE – Yet Another NES Emulator](/assets/yane.pdf)
-* Master's Thesis: [Implementing incremental and parallel parsing](http://hdl.handle.net/2077/36982)
+* Master's Thesis: [Implementing incremental and parallel parsing](https://hdl.handle.net/2077/36982)
 
 #### Duration
 * August 2006 - June 2010

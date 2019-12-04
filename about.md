@@ -31,11 +31,11 @@ these days.
 # What I do
 
 I work as a software engineer, mostly with embedded programming, doing
-[Yocto](http://yoctoproject.org) stuff most of the time during the days. I have a master's degree in
-computer science from the [University of Gothenburg](http://gu.se). During my studies I also worked
+[Yocto](https://yoctoproject.org) stuff most of the time during the days. I have a master's degree in
+computer science from the [University of Gothenburg](https://gu.se). During my studies I also worked
 full-time with various students' union assignments.
 
-# Random skills
+# Random "skills"
 
 * I tend to remember LOTS of quotes from movies, songs, sketches etc that I see.
 * I used to be able to recite pi to 45 decimal places. Now probably something like 25
@@ -43,8 +43,8 @@ full-time with various students' union assignments.
 
 # Contact
 
-* Twitter: [@wto_](http://twitter.com/wto_)
+* Twitter: [@wto_](https://twitter.com/wto_)
 * E-mail: tobsan[at]tobsan[dot]se (GPG key fingerprint: `1EEF 527E 9341 888C 6D32  61D8 227C A2A2 FF16 BE40`)
-* GitHub: [tobsan](http://github.com/tobsan)
-* LinkedIn: [profile](http://www.linkedin.com/in/tobsan)
+* GitHub: [tobsan](https://github.com/tobsan)
+* LinkedIn: [profile](https://www.linkedin.com/in/tobsan)
 
