@@ -33,6 +33,17 @@ dvorak typist since 2008. I'm a native swede and speak english fluently.
 
 ## Work experience
 
+### Endian Technologies
+[Endian](https://endian.se) is an embedded consultancy company within the IoT space. As a software
+engineer, I help our customers connect tiny devices to the cloud, primarily by writing software for
+those devices.
+
+#### Duration
+January 2020 - Present
+
+#### Position
+Software Engineer
+
 ### HMS Industrial Networks
 [HMS](https://hms.se) creates network hardware and software for industrial applications, mainly
 field buses and industrial ethernet. HMS writes software and drivers in C and support software in
