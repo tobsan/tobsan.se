@@ -1,0 +1,104 @@
+- employer: Endian Technologies
+  start: Jan 2020
+  position: Software Engineer
+  description: | 
+    [Endian](https://endian.se) is an embedded consultancy company within the
+    IoT space. As a software engineer, I help our customers connect tiny
+    devices to the cloud, primarily by writing software for those devices.
+
+- employer: HMS Industrial Networks
+  start: May 2018
+  end: December 2019
+  position: Development Engineer
+  description: |
+    [HMS](https://hms.se) creates network hardware and software for industrial
+    applications, mainly field buses and industrial ethernet. HMS writes
+    software and drivers in C and support software in Python. The global
+    platforms team, which I was a part of, maintains a Linux platform based on
+    [OpenEmbedded](https://openembedded.org) for supporting the hardware we
+    create on Linux.
+
+- employer: Pelagicore / Luxoft Sweden
+  start: July 2014
+  end: April 2018
+  position: Software Engineer
+  description: |
+    [Pelagicore](https://pelagicore.com) develops In-Vehicle Infotainment (IVI)
+    systems for the car industry, using open source software components. They
+    develop mainly in C/C++, but tend to script stuff in both python and bash
+    when needed. They maintain and develop a Linux platform using
+    [Yocto](https://yoctoproject.org), and write UI software in
+    [Qt/QML](https://qt.io). As a Software Engineer, my main responsibilities
+    were development and testing of code, as well as maintenance of the
+    [Yocto platform](https://pelux.io).
+
+- employer: University of Gothenburg Students' Unions (GUS)
+  start: July 2012
+  end: June 2013
+  position: Vice President
+  description: |
+    [GUS](https://gus.gu.se) is a collaborative body for the students' unions at
+    the [University of Gothenburg](https://gu.se).  The president and vice
+    president are the students' voice towards the vice-chancellor, coordinate
+    the work with other student representatives and support the students' unions
+    in their work. As vice president, I was responsible for the coordination of
+    work regarding work environment and the student ombudsmen for work
+    environment.
+
+- employer: Göta students' union
+  start: July 2011
+  end: June 2012
+  position: Vice president
+  description: |
+    I worked at [Göta students' union](https://gotastudentkar.se) as one of
+    three presidents responsible for the operative work within the union. Being
+    responsible for education issues, I coordinated work with people responsible
+    for education issues at our five sections (one per faculty) and pursued
+    common issues against the university.
+
+- employer: EmMZäta Personal
+  start: June 2007
+  end: August 2009
+  position: Terminal worker
+  description: |
+    Working for a staffing company, I drove forklifts, picked orders and built
+    cardboard displays, mainly at the DHL warehouse at Arendal during three
+    summers. It was a monotonous work, but the people there were really nice.
+
+- employer: Palmary Productions
+  start: Autumn 2006
+  position: Programmer
+  description: |
+    During the autumn of 2006 I wrote a time reporting system using PHP and
+    MySQL. It ended up being so-so, but at least I got to program something
+    real, even if it was in (old-style) PHP...
+
+- employer: Swedish Outdoor Association (Friluftsfrämjandet)
+  start: Summer 2004
+  end: Summer 2011
+  position: Summer Camp Leader
+  description: |
+    The Swedish outdoor association held summer camp for kids 8-12 years old. As
+    a leader, we made sure that the kids had fun, that nobody got hurt and that
+    everybody learned something new. Most of the days were spent walking the
+    woods, canoeing, playing softball, swimming etc.
+
+- programme: M.Sc. Computer Science
+  where: University of Gothenburg
+  begin: August 2006
+  end: June 2014
+  description: |
+    I took both my bachelor's degree and my master's degree with specialization
+    in Algorithms, Languages and Logic at the University of Gothenburg. I also
+    took some courses in linguistics.
+
+    * Bachelor's Thesis: [λANE – Yet Another NES Emulator](/assets/yane.pdf)
+    * Master's Thesis: [Implementing incremental and parallel parsing](https://hdl.handle.net/2077/36982)
+
+- programme: High school
+  where: Lerums Gymnasium
+  begin: 2003
+  end: 2006
+  description: |
+    High school programme in science, aimed especially at mathematics and
+    programming.
