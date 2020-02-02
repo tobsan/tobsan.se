@@ -24,7 +24,7 @@ description: >- # this means to ignore newlines until "baseurl:"
   activist, and free software advocate. I also enjoy playing board games.
 
 baseurl: "" # the subpath of your site, e.g. /blog
-url: "http://tobsan.se" # the base hostname & protocol for your site, e.g. http://example.com
+url: "https://tobsan.se" # the base hostname & protocol for your site, e.g. http://example.com
 
 # Build settings
 markdown: kramdown
