@@ -1,0 +1,73 @@
+
+- url: https://stepmania.com
+  description: an open-source simulator for playing Dance Dance Revolution and similar games.
+  category: other
+  title: StepMania
+
+- url: https://memory-alpha.wikia.com
+  description: the unofficial Star Trek wiki.
+  category: other
+  title: Memory-Alpha
+
+- url: https://vansterpartiet.se
+  description: the Swedish left party.
+  category: other
+  title: Vänsterpartiet
+
+- url: https://gu.se
+  description: my alma mater.
+  category: university
+  title: University of Gothenburg
+
+- url: https://gotastudentkar.se
+  description: of which I was the vice president 2011-2012
+  category: university
+  title: Göta students' union
+
+- url: https://gus.gu.se
+  description: of which I was the vice president 2012-2013
+  category: university
+  title: University of Gothenburg Students' Unions (GUS)
+
+- url: https://haskell.org
+  description: a purely functional programming language
+  category: programming
+  title: Haskell
+
+- url: /brainfuck
+  description: A simple Brainfuck interpreter in Haskell
+  category: code by me
+
+- url: /assets/vimrc
+  description: My old .vimrc
+  category: code by me
+
+- url: /assets/yane.pdf
+  description: my bachelor's thesis.
+  category: code by me
+  title: YANE - Yet Another NES Emulator
+
+- url: https://hdl.handle.net/2077/36982
+  description: my master's thesis.
+  category: code by me
+  title: Implementing incremental and parallel parsing
+
+- url: https://code.google.com/archive/p/tourettes/
+  description: a torrent tracker written in erlang.
+  category: code by me
+  title: Tourettes
+
+- url: https://laughableman.com
+  title: Laughable, man!
+  description: a tribute to Jesus Quintana of [The Big Lebowski](https://www.imdb.com/title/tt0118715/)
+  category: code by me
+
+- url: /profinst
+  description: my speech at the inauguration of new professors at the University of Gothenburg 2013 (in Swedish).
+  category: written by me
+  title: Hello, world!
+
+- url: https://www.svd.se/humanistisk-forskning-for-dodskamp
+  title: Humanistisk forskning för dödskamp
+  description: an article on how the government's politics on research funding affects studies of (foreign) languages (in Swedish).
+  category: written by me
