@@ -14,8 +14,8 @@ Revolution, Beatmania IIDX and similar games. Timing is everything.
 ## Software skills
 
 I can program in more or less any language, I’ve sampled most different
-paradigms. Languages I have most experience with are C++, Python, Haskell, Java,
-Bash, Erlang. Professionally I have mostly written C++, Python, Bash and QML.
+paradigms. Languages I have most experience with are C, C++, Python, Haskell, Java,
+Bash, Erlang. Professionally I have mostly written C, C++, Python, Bash and QML.
 
 I feel at home in a small team of experts, preferrably following some agile
 setting. I work exclusively in GNU/Linux environments. I don't like Windows, but

@@ -30,8 +30,7 @@ these days.
 
 # What I do
 
-I work as a software engineer, mostly with embedded programming, doing
-[Yocto](https://yoctoproject.org) stuff most of the time during the days. I have a master's degree in
+I work as a software engineer, mostly with embedded programming. I have a master's degree in
 computer science from the [University of Gothenburg](https://gu.se). During my studies I also worked
 full-time with various students' union assignments.
 
