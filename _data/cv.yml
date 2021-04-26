@@ -1,10 +1,11 @@
 - employer: Endian Technologies
   start: Jan 2020
   position: Software Engineer
-  description: | 
+  description: |
     [Endian](https://endian.se) is an embedded consultancy company within the
     IoT space. As a software engineer, I help our customers connect tiny
-    devices to the cloud, primarily by writing software for those devices.
+    devices to the cloud, primarily by writing software for those devices. Some
+    devices run Linux, some run Zephyr or FreeRTOS.
 
 - employer: HMS Industrial Networks
   start: May 2018
