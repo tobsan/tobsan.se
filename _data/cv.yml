@@ -7,6 +7,10 @@
     devices to the cloud, primarily by writing software for those devices. Some
     devices run Linux, some run Zephyr or FreeRTOS.
 
+    At Endian, I've been programming mostly in C with some shell scripting on
+    the side, and have been using CMake, Yocto and KConfig tools. Technologies
+    such as NB-IoT, LwM2M, MQTT and CBOR were mostly new to me.
+
 - employer: HMS Industrial Networks
   start: May 2018
   end: December 2019
@@ -17,7 +21,8 @@
     software and drivers in C and support software in Python. The global
     platforms team, which I was a part of, maintains a Linux platform based on
     [OpenEmbedded](https://openembedded.org) for supporting the hardware we
-    create on Linux.
+    create on Linux. I also worked with the CI/DevOps team that maintained the
+    server infrastructure that was based on Docker compase and Jenkins.
 
 - employer: Pelagicore / Luxoft Sweden
   start: July 2014
