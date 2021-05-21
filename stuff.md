@@ -1,6 +1,6 @@
 ---
 layout: page
-title: A collection of links
+title: Links
 permalink: /stuff/
 ---
 
