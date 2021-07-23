@@ -12,8 +12,9 @@ for me to stop.
 Pros:
 - Timing is much more relaxed. Now this is similar to making bread with regular
   yeast but putting it in the fridge overnight.
-- The bread becomes quite tasty. I haven't tried making rye bread yet, so it
-  might be an unfair comparison
+- The bread becomes quite tasty. <strike>I haven't tried making rye bread yet,
+  so it might be an unfair comparison.</strike> Rye bread doesn't become as
+  tasty though.
 - Looking cool and being able to blog about sour dough bread.
 
 Cons:
