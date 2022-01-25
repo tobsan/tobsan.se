@@ -1,5 +1,13 @@
+- employer: Scionova
+  start: December 2021
+  position: Software Engineer
+  description: |
+    Scionova does consulting within the connectivity domain, and for me that
+    means mostly embedded IoT like things that run Linux or something similar.
+
 - employer: Endian Technologies
   start: Jan 2020
+  end: December 2021
   position: Software Engineer
   description: |
     [Endian](https://endian.se) is an embedded consultancy company within the
