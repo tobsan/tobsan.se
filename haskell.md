@@ -6,9 +6,10 @@ exclude_from_nav: true
 ---
 
 Haskell is a black cat with a white patch under his chin, and a white patch on
-his belly. He was born on May 12th 2019. He is incredibly naïve and believes
-everyone wants him well. As a result, he will follow people into their homes, if
-possible. Haskell is larger than his sister, [Ada](/ada).
+his belly. He was born on May 12th 2019. As a kitten, he was incredibly naïve
+and believed that everyone wanted what was best for him. As a result, he would
+follow people into their homes, if possible. Nowadays he spends his outdoor time
+elsewhere. Haskell is significantly larger than his sister, [Ada](/ada).
 
 Haskell likes to cuddle with everyone, and is fond of eating on both facial hair
 and any longer hair on people's heads, if offered the chance. His signature move

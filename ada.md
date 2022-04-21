@@ -7,9 +7,10 @@ exclude_from_nav: true
 
 Ada is a tiger striped cat, who is significantly smaller than her brother,
 [Haskell](/haskell). She was born on May 12th 2019. She is the cautious type but
-consistently tries to eat any food that's on the table, even if there are humans
-sitting at the table. Ada is very particular about who gets to pet her and when,
-but she enjoys hunting prey and sticks.
+will flirt with anyone when she's outdoors. She repeatedly sneaks in to our
+neighbors house and tries to eat their cat's food. Ada is very particular about
+who gets to pet her and when, but she enjoys hunting prey and sticks. She also
+enjoys stealing any prey that Haskell has brought in.
 
 Ada is named after famous programmer and mathematician, [Ada Lovelace](https://en.wikipedia.org/wiki/Ada_Lovelace).
 
