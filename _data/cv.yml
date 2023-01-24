@@ -1,5 +1,13 @@
+- employer: Elektronikutvecklingsbyrån
+  start: November 2021
+  position: Senior Embedded Software Engineer
+  description: |
+    [EUB](https://eub.se) does embedded consultancy with both hardware and
+    software, mostly for IoT devices, and mostly using Zephyr or embedded Linux.
+
 - employer: Scionova
   start: December 2021
+  end: November 2021
   position: Software Engineer
   description: |
     Scionova does consulting within the connectivity domain, and for me that
