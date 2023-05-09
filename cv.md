@@ -4,24 +4,19 @@ title: CV
 permalink: /cv/
 ---
 
-I'm a software engineer, working primarily with embedded systems, and I have a
-passion for functional programming. I believe in free and open source software,
-and I try to contribute to it as much as I can.
+I'm a Swedish software engineer, working primarily with embedded systems, and I
+have a passion for functional programming. I believe in free and open source
+software, and I try to contribute to it, as well as using it, as much as I can.
 
-I also enjoy playing rhythm-based games whenever I can, such as Dance Dance
-Revolution, Beatmania IIDX and similar games. Timing is everything.
-
-## Software skills
-
-I can program in more or less any language, I’ve sampled most different
-paradigms. Languages I have most experience with are C, C++, Python, Haskell, Java,
-Bash, Erlang. Professionally I have mostly written C, C++, Python, Bash and QML,
-and I have been working almost exclusively in the embedded domain.
-
-I feel at home in a small team of experts, preferrably following some agile
-setting. I work exclusively in GNU/Linux environments. I don't like Windows, but
-I can use it if I must. I'm a dvorak typist since 2008. I'm a native swede and
-speak english fluently.
+I...
+- program mostly in C, but inevitably write scripts in both Bash and Python
+- work (almost) exclusively in GNU/Linux environments
+- despise management-driven development methodologies like SAFe
+- am a bit of a keyboard nerd, having fallen in love with the TypeMatrix 2030
+- enjoy playing rhythm-based games whenever I can, mostly Dance Dance
+  Revolution. Timing is everything.
+- speak swedish and english fluently
+- have a drivers license, EU type B
 
 ----------------
 
@@ -35,35 +30,34 @@ speak english fluently.
 
 ## Work experience
 {% for item in site.data.cv %}
+
+{% if item.visible == false %}
+{% continue %}
+{% endif %}
+
 {% if item.employer %}
 ### {{ item.employer }}
+**Duration:** {{ item.start }} - {{ item.end }} <br />
+**Position:** {{ item.position }}
+
 {{ item.description }}
 
-#### Duration
-{{ item.start }} - {{ item.end }}
-
-#### Position
-{{ item.position }}
-
+----------------
 {% endif %}
 {% endfor %}
-
-----------------
 
 ## Education
 {% for item in site.data.cv %}
-{% if item.programme %}
-### {{ item.programme }}
-{{ item.description }}
 
-#### Duration
-{{ item.begin }} - {{ item.end }}
+{% if item.visible == false %}
+{% continue %}
+{% endif %}
+
+{% if item.programme %}
+### {{ item.programme }} @ {{ item.where }}
+**Duration:** {{ item.begin }} - {{ item.end }}
+
+{{ item.description }}
 
 {% endif %}
 {% endfor %}
-
-----------------
-
-## Misc
-I have a european type B driving license. I prefer commuting through public transport though.
-

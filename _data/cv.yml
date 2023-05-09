@@ -1,5 +1,5 @@
 - employer: Elektronikutvecklingsbyrån
-  start: November 2021
+  start: November 2022
   position: Senior Embedded Software Engineer
   description: |
     [EUB](https://eub.se) does embedded consultancy with both hardware and
@@ -7,11 +7,12 @@
 
 - employer: Scionova
   start: December 2021
-  end: November 2021
+  end: November 2022
   position: Software Engineer
   description: |
-    Scionova does consulting within the connectivity domain, and for me that
-    means mostly embedded IoT like things that run Linux or something similar.
+    [Scionova](https://scionova.com) does consulting within the connectivity
+    domain, and for me that meant working in-house with mostly embedded IoT
+    things that ran either Linux or some RTOS.
 
 - employer: Endian Technologies
   start: Jan 2020
@@ -58,6 +59,7 @@
   start: July 2012
   end: June 2013
   position: Vice President
+  visible: false
   description: |
     [GUS](https://gus.gu.se) is a collaborative body for the students' unions at
     the [University of Gothenburg](https://gu.se).  The president and vice
@@ -71,6 +73,7 @@
   start: July 2011
   end: June 2012
   position: Vice president
+  visible: false
   description: |
     I worked at [Göta students' union](https://gotastudentkar.se) as one of
     three presidents responsible for the operative work within the union. Being
@@ -82,6 +85,7 @@
   start: June 2007
   end: August 2009
   position: Terminal worker
+  visible: false
   description: |
     Working for a staffing company, I drove forklifts, picked orders and built
     cardboard displays, mainly at the DHL warehouse at Arendal during three
@@ -90,6 +94,7 @@
 - employer: Palmary Productions
   start: Autumn 2006
   position: Programmer
+  visible: false
   description: |
     During the autumn of 2006 I wrote a time reporting system using PHP and
     MySQL. It ended up being so-so, but at least I got to program something
@@ -99,13 +104,14 @@
   start: Summer 2004
   end: Summer 2011
   position: Summer Camp Leader
+  visible: false
   description: |
     The Swedish outdoor association held summer camp for kids 8-12 years old. As
     a leader, we made sure that the kids had fun, that nobody got hurt and that
     everybody learned something new. Most of the days were spent walking the
     woods, canoeing, playing softball, swimming etc.
 
-- programme: M.Sc. Computer Science
+- programme: Computer Science
   where: University of Gothenburg
   begin: August 2006
   end: June 2014
@@ -121,6 +127,7 @@
   where: Lerums Gymnasium
   begin: 2003
   end: 2006
+  visible: false
   description: |
     High school programme in science, aimed especially at mathematics and
     programming.
