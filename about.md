@@ -9,15 +9,13 @@ through GitHub pages.
 
 # Bio
 
-Born in 1988, I grew up just outside Gothenburg, Sweden, attending school in Gråbo and Lerum. I
-began studying computer science at the University of Gothenburg in 2006, and between 2010 and 2013 I
-worked full-time at the students' unions at the university, which spawned a greater interest in
-politics. I'm especially interested in issues regarding higher education and equality, and in
-general I would identify as a socialist.
+I live in a small town called Bohus outside Gothenburg with my wife, Lina, and
+two cats [Ada](/ada) and [Haskell](/haskell). We enjoy poking around in our
+garden, growing vegetables and flowers.
 
-While I do software development for work, I also enjoy programming recreationally, where I tend to
-do mostly Haskell or other functional languages. I enjoy a higher-order languages, algorithmic
-challenges and a message passing programming style without shared memory, as employed in erlang.
+I was born in 1988, grew up outside Gothenburg, and studied at the University of
+Gothenburg between 2006 and 2014. Since then, I've been working as a software
+engineer.
 
 I have had an interest of rhythm based music games since 2003, when I was introduced to Dance Dance
 Revolution (DDR). I have tried a variety of similar games, and although I'm most proficient in DDR
@@ -42,7 +40,6 @@ full-time with various students' union assignments.
 
 # Contact
 
-* Twitter: [@wto_](https://twitter.com/wto_)
 * E-mail: tobsan[at]tobsan[dot]se (GPG key fingerprint: `1EEF 527E 9341 888C 6D32  61D8 227C A2A2 FF16 BE40`)
 * GitHub: [tobsan](https://github.com/tobsan)
 * LinkedIn: [profile](https://www.linkedin.com/in/tobsan)
