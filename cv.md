@@ -25,6 +25,7 @@ I...
 * **Date of birth:** 1988-07-30
 * **E-mail:** tobsan[at]tobsan[dot]se (GPG key fingerprint: `1EEF 527E 9341 888C 6D32  61D8 227C A2A2 FF16 BE40`)
 * **[GitHub profile](https://github.com/tobsan)**
+* **[Mastodon](https://fosstodon.org/@tobsan)**
 
 ----------------
 

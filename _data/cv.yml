@@ -2,8 +2,11 @@
   start: November 2022
   position: Senior Embedded Software Engineer
   description: |
-    [EUB](https://eub.se) does embedded consultancy with both hardware and
-    software, mostly for IoT devices, and mostly using Zephyr or embedded Linux.
+    At [EUB](https://eub.se) we do electronics and firmware development in an
+    uncomplicated way. We create reusable building blocks and focus on rapid
+    prototyping so that our customers quickly can get their hands on an actual
+    device to try out. Most of the time, we target low power IoT devices with
+    Zephyr RTOS, but we also do embedded Linux when that's needed.
 
 - employer: Scionova
   start: December 2021
@@ -39,7 +42,7 @@
     platforms team, which I was a part of, maintains a Linux platform based on
     [OpenEmbedded](https://openembedded.org) for supporting the hardware we
     create on Linux. I also worked with the CI/DevOps team that maintained the
-    server infrastructure that was based on Docker compase and Jenkins.
+    server infrastructure that was based on Docker compose and Jenkins.
 
 - employer: Pelagicore / Luxoft Sweden
   start: July 2014
