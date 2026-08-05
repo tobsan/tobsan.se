@@ -40,7 +40,8 @@ full-time with various students' union assignments.
 
 # Contact
 
-* E-mail: tobsan[at]tobsan[dot]se (GPG key fingerprint: `1EEF 527E 9341 888C 6D32  61D8 227C A2A2 FF16 BE40`)
+* E-mail: tobsan[at]tobsan[dot]se (GPG key fingerprint: `1EEF 527E 9341 888C 6D32 61D8 227C A2A2 FF16 BE40`)
+* Mastodon: [@tobsan@fosstodon.org](https://fosstodon.org/@tobsan)
+* Matrix: @tobsan:matrix.org
 * GitHub: [tobsan](https://github.com/tobsan)
 * LinkedIn: [profile](https://www.linkedin.com/in/tobsan)
-
